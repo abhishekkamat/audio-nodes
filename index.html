@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Audio Nodes</title>
+</head>
+
+<body>
+
+    <div id="node">
+        <ul>
+            <li><h1>Audio Nodes</h1></li>
+            <li><audio id="song1" src="Clock-Ticking-C-www.fesliyanstudios.com.mp3"></audio></li> 
+            <li><button data-playing="false" role="switch" aria-checked="false" class="play" onclick="myFunction(this)">
+                Play/Pause
+            </button></li>
+            <li><input type="checkbox" id="mycheck"></li>
+            <li><button onclick="controller(this)">New Node</button></li>
+            
+            
+        </ul>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
